@@ -1,0 +1,58 @@
+# -------------------------------------
+# Python virtual environment
+# -------------------------------------
+venv/
+venv314/
+.env/
+.venv/
+
+# -------------------------------------
+# Python cache and compiled files
+# -------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# -------------------------------------
+# MLflow artifacts and tracking data
+# -------------------------------------
+mlruns/
+mlartifacts/
+mlflow.log
+
+# -------------------------------------
+# Jupyter Notebook checkpoints
+# -------------------------------------
+.ipynb_checkpoints/
+
+# -------------------------------------
+# Logs and temp files
+# -------------------------------------
+*.log
+*.tmp
+*.out
+*.DS_Store
+
+# -------------------------------------
+# IDE & editor settings
+# -------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -------------------------------------
+# Build / distribution folders
+# -------------------------------------
+build/
+dist/
+*.egg-info/
+
+# -------------------------------------
+# Environment files
+# -------------------------------------
+.envrc
+.env.local
+.env.production
+.env.development
